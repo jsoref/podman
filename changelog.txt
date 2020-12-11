@@ -924,7 +924,7 @@
   * Bump k8s.io/api from 0.18.3 to 0.18.4
   * Bump go.etcd.io/bbolt from 1.3.4 to 1.3.5
   * Podman system service is no longer experimental
-  * Handle dropping capabilties correctly when running as non root user
+  * Handle dropping capabilities correctly when running as non root user
   * Don't ignore --user flag in rootless --userns keepid
   * Bump to v2.0.0-dev
   * Makefile: install.varlink needs to create dirs
