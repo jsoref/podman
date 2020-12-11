@@ -4287,7 +4287,7 @@
   * Refactor: use idtools.ParseIDMap instead of bundling own version
   * cirrus: Use updated images including new crui
   * Switch all referencs to image.ContainerConfig to image.Config
-  * Allow users to specify a directory for additonal devices
+  * Allow users to specify a directory for additional devices
   * Change all 'can not' to 'cannot' for proper usage
   * Invalid index for array
   * Vendor in latest psgo code to fix race conditions
@@ -4386,7 +4386,7 @@
   * Refactor: use idtools.ParseIDMap instead of bundling own version
   * cirrus: Use updated images including new crui
   * Switch all referencs to image.ContainerConfig to image.Config
-  * Allow users to specify a directory for additonal devices
+  * Allow users to specify a directory for additional devices
   * Change all 'can not' to 'cannot' for proper usage
   * Invalid index for array
   * Vendor in latest psgo code to fix race conditions
