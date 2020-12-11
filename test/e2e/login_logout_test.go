@@ -66,7 +66,7 @@ var _ = Describe("Podman login and logout", func() {
 
 		registriesConfWithSearch = []byte(fmt.Sprintf("[registries.search]\nregistries = ['%s']", server))
 
-		testImg = strings.Join([]string{server, "test-apline"}, "/")
+		testImg = strings.Join([]string{server, "test-alpine"}, "/")
 
 		certDirPath = filepath.Join(os.Getenv("HOME"), ".config/containers/certs.d", server)
 		os.MkdirAll(certDirPath, os.ModePerm)
