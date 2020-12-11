@@ -4564,7 +4564,7 @@
   * set root propagation based on volume properties
   * Actually set version for podman module / pypodman
   * implement --format for version command
-  * podman_tutorial.md typos: arguement -> argument; missing 'a'
+  * podman_tutorial.md typos: argument -> argument; missing 'a'
   * Load NAT modules to fix tests involving CRIU
   * Vendor in latest containers/buildah
   * Update checkpoint/restore man pages
