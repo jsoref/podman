@@ -4096,7 +4096,7 @@
   * e2e tests: sigproxy: fix rare hang condition
   * Preserve exited state across reboot
   * Apply 50min timeout to integration tests
-  * Capatilize all usage and descriptions
+  * Capitalize all usage and descriptions
   * Add podman system prune and info commands
   * podman-remote import|export
   * tests: allow to override the OCI runtime
