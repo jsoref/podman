@@ -485,7 +485,7 @@
 - Named and anonymous volumes and `tmpfs` filesystems added to containers are no longer mounted `noexec` by default.
 
 ### Bugfixes
-- Fixed a bug where the `podman exec` command would log to journald when run in containers loggined to journald ([#6555](https://github.com/containers/podman/issues/6555)).
+- Fixed a bug where the `podman exec` command would log to journald when run in containers logged to journald ([#6555](https://github.com/containers/podman/issues/6555)).
 - Fixed a bug where the `podman auto-update` command would not preserve the OS and architecture of the original image when pulling a replacement ([#6613](https://github.com/containers/podman/issues/6613)).
 - Fixed a bug where the `podman cp` command could create an extra `merged` directory when copying into an existing directory ([#6596](https://github.com/containers/podman/issues/6596)).
 - Fixed a bug where the `podman pod stats` command would crash on pods run with `--network=host` ([#5652](https://github.com/containers/podman/issues/5652)).
