@@ -70,7 +70,7 @@ func (ic *ContainerEngine) containerStat(container *libpod.Container, containerP
 		absContainerPath = containerPath
 	}
 
-	// Now we need to make sure to preseve the base path as specified by
+	// Now we need to make sure to preserve the base path as specified by
 	// the user.  The `filepath` packages likes to remove trailing slashes
 	// and dots that are crucial to the copy logic.
 	absContainerPath = copy.PreserveBasePath(containerPath, absContainerPath)
