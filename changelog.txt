@@ -5751,7 +5751,7 @@
   * Vendor in latest buildah
   * Fix misc stuff found by jhonce
   * libpod.conf: Podman's conmon path on openSUSE
-  * Add iidfile parame to build and commit man pages
+  * Add iidfile param to build and commit man pages
   * do not commit default volumes from container
   * correct varlink command in service file
   * Vendor in latest containers/image
