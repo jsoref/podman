@@ -598,7 +598,7 @@
   * Bump k8s.io/apimachinery from 0.18.6 to 0.18.8
   * system tests: enable sdnotify tests
   * Ensure pod infra containers have an exit command
-  * podman.service: use sdnotiy
+  * podman.service: use sdnotify
   * run, create: add new security-opt proc-opts
   * Add support for setting the CIDR when using slirp4netns
   * add event for image build
