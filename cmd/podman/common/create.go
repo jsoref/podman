@@ -696,13 +696,13 @@ func DefineCreateFlags(cmd *cobra.Command, cf *ContainerCLIOpts) {
 		"Allocate a pseudo-TTY for container",
 	)
 
-	timezonezFlagName := "tz"
+	timezoneFlagName := "tz"
 	createFlags.StringVar(
 		&cf.Timezone,
-		timezonezFlagName, containerConfig.TZ(),
+		timezoneFlagName, containerConfig.TZ(),
 		"Set timezone in container",
 	)
-	_ = cmd.RegisterFlagCompletionFunc(timezonezFlagName, completion.AutocompleteNone) //TODO: add timezone completion
+	_ = cmd.RegisterFlagCompletionFunc(timezoneFlagName, completion.AutocompleteNone) //TODO: add timezone completion
 
 	umaskFlagName := "umask"
 	createFlags.StringVar(
