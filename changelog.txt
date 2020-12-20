@@ -1667,7 +1667,7 @@
   * slirp: enable seccomp filter
   * V2 podman image rm | podman rmi [IMAGE]
   * V2 podman image
-  * podmanv2 add pre-run to each commmand
+  * podmanv2 add pre-run to each command
   * Ensure that exec sends resize events
   * enable linting on v2
   * Bump github.com/rootless-containers/rootlesskit from 0.8.0 to 0.9.2
