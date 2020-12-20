@@ -51,7 +51,7 @@
 - Fixed a bug where rootless Podman could hang when the `newuidmap` binary was not installed ([#7776](https://github.com/containers/podman/issues/7776)).
 - Fixed a bug where the `--pull` option to `podman run`, `podman create`,  and `podman build` did not match Docker's behavior.
 - Fixed a bug where sysctl settings from the `containers.conf` configuration file were applied, even if the container did not join the namespace associated with a sysctl.
-- Fixed a bug where Podman would not return the text of errors encounted when trying to run a healthcheck for a container.
+- Fixed a bug where Podman would not return the text of errors encountered when trying to run a healthcheck for a container.
 - Fixed a bug where Podman was accidentally setting the `containers` environment variable in addition to the expected `container` environment variable.
 - Fixed a bug where rootless Podman using CNI networking did not properly clean up DNS entries for removed containers ([#7789](https://github.com/containers/podman/issues/7789)).
 - Fixed a bug where the `podman untag --all` command was not supported with remote Podman.
