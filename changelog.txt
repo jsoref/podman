@@ -367,7 +367,7 @@
   * Updating on supported restart policy
   * Add support for slirp network for pods
   * rootless: fix hang when newidmap is not installed
-  * Remove some SkipIfRootess flags from tests
+  * Remove some SkipIfRootless flags from tests
   * Bump github.com/containers/common from 0.22.0 to 0.23.0
   * HTTP Attach: Wait until both STDIN and STDOUT finish
   * build: honor --runtime setting
@@ -1794,7 +1794,7 @@
   * Revert "exec: get the exit code from sync pipe instead of file"
   * Revert "Exec: use ErrorConmonRead"
   * Revert "exec: fix error code when conmon fails"
-  * rootles tutorial: remove systemd unit example
+  * rootless tutorial: remove systemd unit example
   * generate systemd: add `default.target` to INSTALL
   * Bump github.com/containers/storage from 1.16.1 to 1.16.2
   * use storage/pkg/ioutils
