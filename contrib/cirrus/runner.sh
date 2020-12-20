@@ -111,7 +111,7 @@ exec_container() {
     declare -a envargs
     while read -r var_val; do
         envargs+=("-e $var_val")
-    done <<<"$(passthrough_envars)"
+    done <<<"$(passthrough_envvars)"
 
     # VM Images and Container images are built using (nearly) identical operations.
     set -x
