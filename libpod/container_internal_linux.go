@@ -1937,7 +1937,7 @@ func (c *Container) generatePasswdAndGroup() (string, string, error) {
 		needGroup = false
 	}
 
-	// Next, check if we already made the files. If we didn, don't need to
+	// Next, check if we already made the files. If we didn't, don't need to
 	// do anything more.
 	if needPasswd {
 		passwdPath := filepath.Join(c.config.StaticDir, "passwd")
