@@ -488,7 +488,7 @@ func FillOutSpecGen(s *specgen.SpecGenerator, c *ContainerCLIOpts, args []string
 	s.ConmonPidFile = c.ConmonPIDFile
 
 	// TODO
-	// ouitside of specgen and oci though
+	// outside of specgen and oci though
 	// defaults to true, check spec/storage
 	// s.readon = c.ReadOnlyTmpFS
 	//  TODO convert to map?
