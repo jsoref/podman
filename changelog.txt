@@ -3177,7 +3177,7 @@
   * Add --latest, -l to 'podman diff'
   * Build cgo files with -Wall -Werror
   * Add some missing periods to the readme
-  * fix bug creats directory copying file
+  * fix bug creates directory copying file
   * Support Reproducible Builds by removing build path
   * Support SOURCE_DATE_EPOCH
   * Properly initialize container OCI runtime
