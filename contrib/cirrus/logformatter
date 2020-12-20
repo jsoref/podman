@@ -440,7 +440,7 @@ END_HTML
         }
     }
 
-    # If Cirrus magic envariables are available, write a link to results.
+    # If Cirrus magic envvariables are available, write a link to results.
     # FIXME: it'd be so nice to make this a clickable live link.
     #
     # STATIC_MAGIC_BLOB is the name of a google-storage bucket. It is
