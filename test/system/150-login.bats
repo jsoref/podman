@@ -6,7 +6,7 @@
 load helpers
 
 ###############################################################################
-# BEGIN one-time envariable setup
+# BEGIN one-time envvariable setup
 
 # Create a scratch directory; our podman registry will run from here. We
 # also use it for other temporary files like authfiles.
@@ -33,7 +33,7 @@ fi
 # Override any user-set path to an auth file
 unset REGISTRY_AUTH_FILE
 
-# END   one-time envariable setup
+# END   one-time envvariable setup
 ###############################################################################
 # BEGIN filtering - none of these tests will work with podman-remote
 
@@ -217,7 +217,7 @@ EOF
 # BEGIN cooperation with skopeo
 
 # Skopeo helper - keep this separate, so we can test with different
-# envariable settings
+# envvariable settings
 function _test_skopeo_credential_sharing() {
     if ! type -p skopeo; then
         skip "skopeo not available"
@@ -270,7 +270,7 @@ function _test_skopeo_credential_sharing() {
     _test_skopeo_credential_sharing
 }
 
-@test "podman login - shares credentials with skopeo - via envariable" {
+@test "podman login - shares credentials with skopeo - via envvariable" {
     authfile=${PODMAN_LOGIN_WORKDIR}/auth-$(random_string 10).json
     rm -f $authfile
 
@@ -279,7 +279,7 @@ function _test_skopeo_credential_sharing() {
 }
 
 @test "podman login - shares credentials with skopeo - via --authfile" {
-    # Also test that command-line --authfile overrides envariable
+    # Also test that command-line --authfile overrides envvariable
     authfile=${PODMAN_LOGIN_WORKDIR}/auth-$(random_string 10).json
     rm -f $authfile
 

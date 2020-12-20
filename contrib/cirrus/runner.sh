@@ -6,9 +6,9 @@ set -eo pipefail
 # It can also be invoked manually in a `hack/get_ci_cm.sh` environment,
 # documentation of said usage is TBI.
 #
-# The principal deciding factor is the $TEST_FLAVOR envariable: for any
+# The principal deciding factor is the $TEST_FLAVOR envvariable: for any
 # given value 'xyz' there must be a function '_run_xyz' to handle that
-# test. Several other envariables are used to differentiate further,
+# test. Several other envvariables are used to differentiate further,
 # most notably:
 #
 #    PODBIN_NAME  : "podman" (i.e. local) or "remote"
