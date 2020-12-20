@@ -258,7 +258,7 @@ type ContainerNetworkConfig struct {
 	// this is only the set of aliases the container was *created with*.
 	// Formatted as map of network name to aliases. All network names must
 	// be present in the Networks list above.
-	NetworkAliases map[string][]string `json:"network_alises,omitempty"`
+	NetworkAliases map[string][]string `json:"network_aliases,omitempty"`
 }
 
 // ContainerImageConfig is an embedded sub-config providing image configuration
