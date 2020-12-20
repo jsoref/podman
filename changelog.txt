@@ -1188,7 +1188,7 @@
   * Testcase added for network commands
   * format option added to network inspect command.
   * filter option added to network ls command.
-  * Fix mountpont in SecretMountsWithUIDGID
+  * Fix mountpoint in SecretMountsWithUIDGID
   * Update troubleshoot page
   * v2 enable remote integration tests
   * Get MAC, Windows and Linux podman-remote from latest version links.
