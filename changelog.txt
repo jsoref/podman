@@ -3795,7 +3795,7 @@
   * Add event on container death
   * Update vendor of Buildah and imagebuilder
   * minor typo fix in 'podman top' usage
-  * healtcheck phase 2
+  * healthcheck phase 2
   * Add event logging to libpod, even display to podman
   * Fix SELinux on host shared systems in userns
   * Fix broken link in io.podman.varlink
