@@ -205,7 +205,7 @@
   * Switch use of Flags to Options
   * Bump k8s.io/apimachinery from 0.19.2 to 0.19.3
   * Fix handling and documentation of podman wait --interval
-  * Podman build should default to not usins stdin
+  * Podman build should default to not using stdin
   * Tests: Fix common flakes, and improve apiv2 test log
   * Retrieve network inspect info from dependency container
   * refactor api compatibility container creation to specgen
