@@ -5541,7 +5541,7 @@
   * Vendor in latest buildah code
   * rmi: remove image if all tags are specified
   * Aliases do not work with IsSet
-  * Touchups for registries.conf across a few man pages
+  * Touch ups for registries.conf across a few man pages
   * Remove container from state before cleaning up.
   * hack/release.sh: Add a guard against -dev suffixes for argv[2]
   * Bump gitvalidation epoch
