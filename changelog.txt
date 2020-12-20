@@ -5464,7 +5464,7 @@
   * add podman remote client
   * Vendor in go-selinux again
   * Update the vendoring of github.com/opencontainers/selinux
-  * Containers can dissappear
+  * Containers can disappear
   * Add podman-image and podman-container man page links
   * Update ocicni vendor to pick up bugfixes
   * make varlink optional for podman
