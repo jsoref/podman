@@ -671,7 +671,7 @@ func DefineCreateFlags(cmd *cobra.Command, cf *ContainerCLIOpts) {
 		sysctlFlagName, []string{},
 		"Sysctl options",
 	)
-	//TODO: Add function for systctl completion.
+	//TODO: Add function for sysctl completion.
 	_ = cmd.RegisterFlagCompletionFunc(sysctlFlagName, completion.AutocompleteNone)
 
 	systemdFlagName := "systemd"
