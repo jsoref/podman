@@ -3763,7 +3763,7 @@
   * Make 'podman rm' exit with 125 if it had a bogus & a running container
   * rootless: write the custom config file before reload
   * Add support for SCTP port forwarding
-  * Make sure buildin volumes have the same ownership and permissions as image
+  * Make sure builtin volumes have the same ownership and permissions as image
   * rootless: do not override user settings
   * runtime: refactor NewRuntime and NewRuntimeFromConfig
   * events: use os.SEEK_END instead of its value
