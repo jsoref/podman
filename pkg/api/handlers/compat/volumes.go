@@ -208,7 +208,7 @@ func RemoveVolume(w http.ResponseWriter, r *http.Request) {
 	 * using the volume at the same time".
 	 *
 	 * With this in mind, we only consider the `force` query parameter when we
-	 * hunt for specified volume by name, using it to seletively return a 204
+	 * hunt for specified volume by name, using it to selectively return a 204
 	 * or blow up depending on `force` being truthy or falsey/unset
 	 * respectively.
 	 */
