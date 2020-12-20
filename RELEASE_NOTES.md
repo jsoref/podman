@@ -425,7 +425,7 @@
 
 ### API
 - Fixed a bug where the timestamp format for Libpod image list endpoint was incorrect - the format has been switched to Unix time.
-- Fixed a bug where the compatability Create endpoint did not handle empty entrypoints properly.
+- Fixed a bug where the compatibility Create endpoint did not handle empty entrypoints properly.
 - Fixed a bug where the compatibility network remove endpoint would improperly handle errors where the network was not found.
 - Fixed a bug where containers would be created with improper permissions because of a umask issue ([#6787](https://github.com/containers/libpod/issues/6787)).
 
@@ -455,7 +455,7 @@
 - Fixed a bug where the `label` option to `--security-opt` would only be shown once in `podman inspect`, even if provided multiple times.
 
 ### API
-- Fixed a bug where network endpoint URLs in the compatability API were mistakenly suffixed with `/json`.
+- Fixed a bug where network endpoint URLs in the compatibility API were mistakenly suffixed with `/json`.
 - Fixed a bug where the Libpod volume creation endpoint returned 200 instead of 201 on success.
 
 ### Misc
