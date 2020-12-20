@@ -328,7 +328,7 @@
   * Update rootless_tutorial.md
   * Volume prune should not pass down the force flag
   * Support --http-proxy for remote builds
-  * fix: The container created by APIV2 has an incorrect Env and WorkDir
+  * fix: The container created by APIv2 has an incorrect Env and WorkDir
   * misc fixes for f33 integration tests
   * fix allowing inspect manifest of non-local image
   * Distinguish userns vs containerized tests
@@ -1702,7 +1702,7 @@
   * fix remote connection use of context
   * use boolreport for containerexists response
   * podmanv2 container exists|wait
-  * Add APIV2 service files
+  * Add APIv2 service files
   * Attempt manual removal of CNI IP allocations on refresh
   * Implemented --iidfile for podman commit
   * Add guildline for writing podman V2 CLI commands
