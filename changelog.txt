@@ -2857,7 +2857,7 @@
   * Fix incorrect use of realloc()
   * Bump gitvalidation epoch
   * Bump to v1.5.1-dev
-  * Fix a couple of errors descovered by coverity
+  * Fix a couple of errors discovered by coverity
   * Test that restored container does not depend on the original container
   * Fix up ConmonPidFile after restore
   * Cirrus: Enable updates-testing repo for Fedora
@@ -2948,7 +2948,7 @@
   * Cirrus: Remove fixed clone depth
   * podman: support --userns=ns|container
   * pods: do not to join a userns if there is not any
-  * Documenation & build automation for remote darwin
+  * Documentation & build automation for remote darwin
   * Cirrus: Bypass release during image-building
   * Use systemd cgroups for Ubuntu
   * Cirrus: Ubuntu: Set + Test for $RUNC_BINARY
@@ -4821,7 +4821,7 @@
   * Add ContainerStateExited and OCI delete() in cleanup()
   * Need to allocate memory for hook struct
   * Disable SELinux labeling if --privileged
-  * * Update documenation
+  * * Update documentation
   * Implement pod varlink bindings
   * Update docs to build a runc that works with systemd
   * runtime: fix message which assumes the runtime is runc
