@@ -233,7 +233,7 @@ var _ = Describe("Podman create", func() {
 		Expect(err).To(BeNil())
 		defer os.RemoveAll(tmpDir)
 
-		podName := "rudoplh"
+		podName := "rudolph"
 		ctrName := "prancer"
 		podIDFile := tmpDir + "pod-id-file"
 
