@@ -1455,7 +1455,7 @@
   * Move selinux labeling support from pkg/util to pkg/selinux
   * Fix integration tests for untag
   * Instrumentation to answer #5765
-  * test rootless_storage_path from strorage.conf
+  * test rootless_storage_path from storage.conf
   * V2 Restore exists E2E tests
   * Fix podman rm to have correct exit codes
   * Fix v2 test podman info

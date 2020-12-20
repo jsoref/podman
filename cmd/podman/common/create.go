@@ -642,7 +642,7 @@ func DefineCreateFlags(cmd *cobra.Command, cf *ContainerCLIOpts) {
 
 	storageOptFlagName := "storage-opt"
 	createFlags.StringSliceVar(
-		&cf.StoreageOpt,
+		&cf.StorageOpt,
 		storageOptFlagName, []string{},
 		"Storage driver options per container",
 	)

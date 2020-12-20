@@ -98,7 +98,7 @@ type ContainerCLIOpts struct {
 	SignaturePolicy   string
 	StopSignal        string
 	StopTimeout       uint
-	StoreageOpt       []string
+	StorageOpt        []string
 	SubUIDName        string
 	SubGIDName        string
 	Sysctl            []string
@@ -359,7 +359,7 @@ func ContainerCreateToContainerCLIOpts(cc handlers.CreateContainerConfig, cgroup
 		Rm:               cc.HostConfig.AutoRemove,
 		SecurityOpt:      cc.HostConfig.SecurityOpt,
 		StopSignal:       cc.Config.StopSignal,
-		StoreageOpt:      stringMaptoArray(cc.HostConfig.StorageOpt),
+		StorageOpt:       stringMaptoArray(cc.HostConfig.StorageOpt),
 		Sysctl:           stringMaptoArray(cc.HostConfig.Sysctls),
 		Systemd:          "true", // podman default
 		TmpFS:            stringMaptoArray(cc.HostConfig.Tmpfs),
