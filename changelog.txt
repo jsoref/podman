@@ -4811,7 +4811,7 @@
   * oci: always set XDG_RUNTIME_DIR
   * Fix pod status reporting for new Exited state
   * Add ability for ubuntu to be tested
-  * selinux: drop superflous relabel
+  * selinux: drop superfluous relabel
   * rootless: always set XDG_RUNTIME_DIR
   * Fix python tests
   * Fix Wait() to allow Exited state as well as Stopped
