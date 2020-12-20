@@ -2225,7 +2225,7 @@
   * fix lint - drop else block
   * fix lint: add comment for NameRegex and error
   * fix lint: correct func identifier in comment
-  * fix lint: "guarantess" is a misspelling of "guarantees"
+  * fix lint: "guarantees" is a misspelling of "guarantees"
   * rootless: use RootlessKit port forwarder
   * Add `untag` sub-command
   * Update demo for the inspect command
