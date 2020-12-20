@@ -171,7 +171,7 @@ func createInit(c *cobra.Command) error {
 	}
 	cliVals.UserNS = c.Flag("userns").Value.String()
 	// if user did not modify --userns flag and did turn on
-	// uid/gid mappsings, set userns flag to "private"
+	// uid/gid mappings, set userns flag to "private"
 	if !c.Flag("userns").Changed && cliVals.UserNS == "host" {
 		if len(cliVals.UIDMap) > 0 ||
 			len(cliVals.GIDMap) > 0 ||
