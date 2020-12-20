@@ -87,7 +87,7 @@ CIRRUS_BUILD_ID=${CIRRUS_BUILD_ID:-$RANDOM$(date +%s)}  # must be short and uniq
 # The starting place for linting and code validation
 EPOCH_TEST_COMMIT="$CIRRUS_BASE_SHA"
 
-# Regex defining all CI-releated env. vars. necessary for all possible
+# Regex defining all CI-related env. vars. necessary for all possible
 # testing operations on all platforms and versions.  This is necessary
 # to avoid needlessly passing through global/system values across
 # contexts, such as host->container or root->rootless user
