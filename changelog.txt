@@ -4246,7 +4246,7 @@
   * podman-login: adhere to user input
   * Vendor in latest containers/buildah code
   * Rootless with shmlocks was not working.
-  * Readd Python testing
+  * Re-add Python testing
   * Update vendor of runc
   * [skip ci] Docs: Add Bot Interactions section
   * container runlabel NAME implementation
@@ -4364,7 +4364,7 @@
   * podman: set umask to 022
   * podman-login: adhere to user input
   * Vendor in latest containers/buildah code
-  * Readd Python testing
+  * Re-add Python testing
   * Update vendor of runc
   * [skip ci] Docs: Add Bot Interactions section
   * container runlabel NAME implementation
