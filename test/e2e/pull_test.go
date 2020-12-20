@@ -506,7 +506,7 @@ var _ = Describe("Podman pull", func() {
 		session = podmanTest.Podman([]string{"pull", "--platform=linux/arm64", "--override-os", "windows", ALPINE})
 		session.WaitWithDefaultTimeout()
 		Expect(session.ExitCode()).To(Equal(125))
-		expectedError = "--platform option can not be specified with --overide-arch or --override-os"
+		expectedError = "--platform option can not be specified with --override-arch or --override-os"
 		Expect(session.ErrorToString()).To(ContainSubstring(expectedError))
 
 		session = podmanTest.Podman([]string{"pull", "-q", "--platform=linux/arm64", ALPINE})

@@ -239,7 +239,7 @@ func pullImage(imageName string) (string, error) {
 
 	if cliVals.Platform != "" {
 		if cliVals.OverrideArch != "" || cliVals.OverrideOS != "" {
-			return "", errors.Errorf("--platform option can not be specified with --overide-arch or --override-os")
+			return "", errors.Errorf("--platform option can not be specified with --override-arch or --override-os")
 		}
 		split := strings.SplitN(cliVals.Platform, "/", 2)
 		cliVals.OverrideOS = split[0]
