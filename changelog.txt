@@ -2178,7 +2178,7 @@
   * Bump to Buildah v1.13.1
   * oci_conmon: not make accessible dirs if not needed
   * Enable pre-commit tool linting
-  * .gitignore: ingore *.coverprofile from unit tests
+  * .gitignore: ignore *.coverprofile from unit tests
   * make lint: include unit tests
   * .golangci.yml: move swagger.go from Makefile
   * make lint: include docs/
