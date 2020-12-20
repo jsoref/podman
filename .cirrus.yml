@@ -156,10 +156,10 @@ build_task:
         # Required to be 200gig, do not modify - has i/o performance impact
         # according to gcloud CLI tool warning messages.
         disk: 200
-        image_name: "${VM_IMAGE_NAME}"  # from stdenvars
+        image_name: "${VM_IMAGE_NAME}"  # from stdenvvars
     matrix: &platform_axis
         # Ref: https://cirrus-ci.org/guide/writing-tasks/#matrix-modification
-        - env:  &stdenvars
+        - env:  &stdenvvars
               DISTRO_NV: ${FEDORA_NAME}
               # Not used here, is used in other tasks
               VM_IMAGE_NAME: ${FEDORA_CACHE_IMAGE_NAME}
@@ -220,7 +220,7 @@ validate_task:
         cpu: 8
         memory: "16Gb"
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: validate
     gopath_cache: &ro_gopath_cache
         <<: *gopath_cache
@@ -242,7 +242,7 @@ bindings_task:
         - build
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: bindings
     gopath_cache: *ro_gopath_cache
     clone_script: *noop  # Comes from cache
@@ -260,7 +260,7 @@ swagger_task:
         - build
     container: *smallcontainer
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: swagger
         TEST_ENVIRON: container
         CTR_FQIN: ${FEDORA_CONTAINER_FQIN}
@@ -279,7 +279,7 @@ vendor_task:
         - build
     container: *smallcontainer
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: vendor
         TEST_ENVIRON: container
         CTR_FQIN: ${FEDORA_CONTAINER_FQIN}
@@ -299,7 +299,7 @@ alt_build_task:
     depends_on:
         - build
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: "altbuild"
     gce_instance: *standardvm
     matrix:
@@ -328,7 +328,7 @@ static_alt_build_task:
     allow_failures: $CI == $CI
     gce_instance: *bigvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: "altbuild"
         # gce_instance variation prevents this being included in alt_build_task
         ALT_NAME: 'Static build'
@@ -354,7 +354,7 @@ osx_alt_build_task:
     depends_on:
         - build
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         # OSX platform variation prevents this being included in alt_build_task
         TEST_FLAVOR: "altbuild"
         ALT_NAME: 'OSX Cross'
@@ -378,7 +378,7 @@ docker-py_test_task:
         - build
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: docker-py
         TEST_ENVIRON: container
     gopath_cache: *ro_gopath_cache
@@ -414,7 +414,7 @@ apiv2_test_task:
         - validate
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: apiv2
     clone_script: *noop  # Comes from cache
     gopath_cache: *ro_gopath_cache
@@ -661,7 +661,7 @@ release_task:
         - success
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: release
     gopath_cache: *ro_gopath_cache
     clone_script: *noop  # Comes from cache
@@ -683,7 +683,7 @@ release_test_task:
         - success
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: release
     gopath_cache: *ro_gopath_cache
     clone_script: *noop  # Comes from cache

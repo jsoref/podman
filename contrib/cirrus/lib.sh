@@ -110,7 +110,7 @@ bigto() { err_retry 7 5670 "" "$@"; }  # 12 minutes max
 # Print shell-escaped variable=value pairs, one per line, based on
 # variable name matching a regex.  This is intended to catch
 # variables being passed down from higher layers, like Cirrus-CI.
-passthrough_envars(){
+passthrough_envvars(){
     local xchars
     local envname
     local envval

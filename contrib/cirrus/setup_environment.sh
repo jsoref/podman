@@ -44,7 +44,7 @@ echo -e "\n# Begin single-use VM global variables (${BASH_SOURCE[0]})" \
 (
     while read -r env_var_val; do
         echo "$env_var_val"
-    done <<<"$(passthrough_envars)"
+    done <<<"$(passthrough_envvars)"
 ) >> "/etc/ci_environment"
 
 #####
