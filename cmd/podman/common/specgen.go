@@ -490,7 +490,7 @@ func FillOutSpecGen(s *specgen.SpecGenerator, c *ContainerCLIOpts, args []string
 	// TODO
 	// outside of specgen and oci though
 	// defaults to true, check spec/storage
-	// s.readon = c.ReadOnlyTmpFS
+	// s.readonly = c.ReadOnlyTmpFS
 	//  TODO convert to map?
 	// check if key=value and convert
 	sysmap := make(map[string]string)
