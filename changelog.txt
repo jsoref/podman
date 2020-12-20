@@ -1260,7 +1260,7 @@
   * spec: fix order for setting rlimits
   * enable rootless integration testing
   * [CI:DOCS] Add Security Policy
-  * V2 Impliment tunnelled podman version
+  * V2 Implement tunnelled podman version
   * Ensure `podman inspect` output for NetworkMode is right
   * Fix bug where pods would unintentionally share cgroupns
   * bindings tests for container remove and inspect
