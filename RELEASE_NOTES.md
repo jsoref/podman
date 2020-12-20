@@ -411,7 +411,7 @@
 
 ### Bugfixes
 - Fixed a bug where the `podman ps` command would not truncate long container commands, resulting in display issues as the column could become extremely wide (the `--no-trunc` flag can be used to print the full command).
-- Fixed a bug where `podman pod` commands operationg on multiple containers (e.g. `podman pod stop` and `podman pod kill`) would not print errors from individual containers, but only a warning that some containers had failed.
+- Fixed a bug where `podman pod` commands operating on multiple containers (e.g. `podman pod stop` and `podman pod kill`) would not print errors from individual containers, but only a warning that some containers had failed.
 - Fixed a bug where the `podman system service` command would panic if a connection to the Events endpoint hung up early ([#6805](https://github.com/containers/libpod/issues/6805)).
 - Fixed a bug where rootless Podman would create anonymous and named volumes with the wrong owner for containers run with the `--user` directive.
 - Fixed a bug where the `TMPDIR` environment variable (used for storing temporary files while pulling images) was not being defaulted (if unset) to `/var/tmp`.
