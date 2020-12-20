@@ -1925,7 +1925,7 @@
   * Update to the latest version of buildah
   * New login and push tests
   * Add network options to podman pod create
-  * Fixed syscall.Signal not convertable by decoder
+  * Fixed syscall.Signal not convertible by decoder
   * Fixed typo in KillContainer
   * build(deps): bump github.com/containers/storage from 1.15.8 to 1.16.0
   * build(deps): bump github.com/stretchr/testify from 1.4.0 to 1.5.0
