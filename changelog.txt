@@ -5301,7 +5301,7 @@
   * Update container Mounted() and Mountpoint() functions
   * [WIP] Refactor and simplify python builds
   * AppArmor: runtime check if it's enabled on the host
-  * Add format descriptors infor to podman top
+  * Add format descriptors info to podman top
   * Fix error handling in pod start/stop.
   * docs/podman-top: fix typo and whitespace
   * Use the result of reference.Parse when checking for digests.
