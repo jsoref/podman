@@ -23,7 +23,7 @@
   * Add alias for podman network rm -> remove
   * add network connect|disconnect compat endpoints
   * Fix sed regex to update version in version/version.go
-  * Github-Actions: Send e-mail on Cirrus cron failure
+  * GitHub-Actions: Send e-mail on Cirrus cron failure
   * Align the podman pod ps --filter behavior with podman ps
   * podman-remote network rm --force is broken
   * Remove build \!remote flags from test

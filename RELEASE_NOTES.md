@@ -521,7 +521,7 @@
 
 ### Misc
 - Rootless containers will now automatically set their ulimits to the maximum allowed for the user running the container, to match the behavior of containers run as root
-- Packages managed by the core Podman team will no longer include a default `libpod.conf`, instead defaulting to `containers.conf`. The default libpod.conf will remain available in the Github repository until the release of Podman 2.0
+- Packages managed by the core Podman team will no longer include a default `libpod.conf`, instead defaulting to `containers.conf`. The default libpod.conf will remain available in the GitHub repository until the release of Podman 2.0
 - The default Podman CNI network configuration now sets HairpinMode to allow containers to access other containers via ports published on the host
 - Updated containers/common to v0.8.4
 
