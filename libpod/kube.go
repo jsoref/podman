@@ -403,7 +403,7 @@ func libpodEnvVarsToKubeEnvVars(envs []string) ([]v1.EnvVar, error) {
 
 // libpodMountsToKubeVolumeMounts converts the containers mounts to a struct kube understands
 func libpodMountsToKubeVolumeMounts(c *Container) ([]v1.VolumeMount, []v1.Volume, error) {
-	// TjDO when named volumes are supported in play kube, also parse named volumes here
+	// TODO when named volumes are supported in play kube, also parse named volumes here
 	_, mounts := c.sortUserVolumes(c.config.Spec)
 	vms := make([]v1.VolumeMount, 0, len(mounts))
 	vos := make([]v1.Volume, 0, len(mounts))
