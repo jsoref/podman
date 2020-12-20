@@ -292,7 +292,7 @@
   * pkg/cgroups/createCgroupv2Path: nits
   * Lowercase some errors
   * Remove excessive error wrapping
-  * Support max_size logoptions
+  * Support max_size log options
   * Fixes remote attach and exec to signal IdleTracker
   * Cirrus: Skip deep testing on branches
   * logformatter: run on system tests & bindings
