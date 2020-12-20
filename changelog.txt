@@ -3824,7 +3824,7 @@
   * Fix a potential segfault during infra container create
   * We don't use crio-umount.conf
   * Move secrets package to buildah
-  * Add troublshoot information about SELinux labeling of containers/storage
+  * Add troubleshoot information about SELinux labeling of containers/storage
   * test docs fixups
   * Default to image entrypoint for infra container
   * ginkgo status improvements
