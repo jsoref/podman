@@ -181,7 +181,7 @@
 - The `podman run` and `podman create` commands can now specify options to slirp4netns by using the `--network` option as follows:  `--net slirp4netns:opt1,opt2`. This allows for, among other things, switching the port forwarder used by slirp4netns away from rootlessport.
 - The `podman ps` command now features a new option, `--storage`, to show containers from Buildah, CRI-O and other applications.
 - The `podman run` and `podman create` commands now feature a `--sdnotify` option to control the behavior of systemd's sdnotify with containers, enabling improved support for Podman in `Type=notify` units.
-- The `podman run` command now features a `--preserve-fds` opton to pass file descriptors from the host into the container ([#6458](https://github.com/containers/podman/issues/6458)).
+- The `podman run` command now features a `--preserve-fds` option to pass file descriptors from the host into the container ([#6458](https://github.com/containers/podman/issues/6458)).
 - The `podman run` and `podman create` commands can now create overlay volume mounts, by adding the `:O` option to a bind mount (e.g. `-v /test:/test:O`). Overlay volume mounts will mount a directory into a container from the host and allow changes to it, but not write those changes back to the directory on the host.
 - The `podman play kube` command now supports the Socket HostPath type ([#7112](https://github.com/containers/podman/issues/7112)).
 - The `podman play kube` command now supports read-only mounts.
