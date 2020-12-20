@@ -3236,7 +3236,7 @@
   * Bump to v1.4.2-dev
   * Change container command to contained
   * Cirrus: Simplify log collection commands
-  * Accidently removed /run/lock from systemd mounts
+  * Accidentally removed /run/lock from systemd mounts
   * Add warning while untagging an image podman-load
   * podman copy files to the volume with a container
 
