@@ -277,7 +277,7 @@ for t in ${tests_to_run[@]}; do
         cd $testdir || die "Cannot cd $testdir"
 
         # setup file may be used for creating temporary directories/files.
-        # We source it so that envariables defined in it will get back to us.
+        # We source it so that envvariables defined in it will get back to us.
         if [ -e setup.sh ]; then
             . setup.sh
         fi
