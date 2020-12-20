@@ -3223,7 +3223,7 @@
   * Move the Config portion of Inspect into libpod
   * Add remote client logging to a file
   * Fix subgidname option in docs for podman run
-  * stop/kill: inproper state errors: s/in state/is in state/
+  * stop/kill: improper state errors: s/in state/is in state/
   * test: add test for logs -f
   * kill: print ID and state for non-running containers
   * API.md: fix few typos
