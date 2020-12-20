@@ -3722,7 +3722,7 @@
   * Make "stopped" a valid state that maps to "exited"
   * fix Bug 1688041-podman image save removes existing image
   * podman: do not split --env on comma
-  * Need to pass the true paramater with --syslog in cobra
+  * Need to pass the true parameter with --syslog in cobra
   * Fix man page to mention race condition
   * docs/podman-run.1.md: remove extra whitespace in --read-only
   * man pages - consistency fixes
