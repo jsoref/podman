@@ -3081,7 +3081,7 @@
   * trivial cleanups from golang
   * ps should use nostore when possible
   * libpod: discern partial IDs between containers and pods
-  * Added instruction to enable the user namespaces permanenty in Manjaro
+  * Added instruction to enable the user namespaces permanently in Manjaro
   * Addressed code review comments
   * Updated install.md for Manjaro Linux
   * Vendor latest OCICNI version
