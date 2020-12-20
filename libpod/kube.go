@@ -524,7 +524,7 @@ func capAddDrop(caps *specs.LinuxCapabilities) (*v1.Capabilities, error) {
 	defaultCaps = append(defaultCaps, g.Config.Process.Capabilities.Inheritable...)
 	defaultCaps = append(defaultCaps, g.Config.Process.Capabilities.Permitted...)
 
-	// Combine all the container's capabilities into a slic
+	// Combine all the container's capabilities into a slice
 	containerCaps := append(caps.Ambient, caps.Bounding...)
 	containerCaps = append(containerCaps, caps.Effective...)
 	containerCaps = append(containerCaps, caps.Inheritable...)
