@@ -795,7 +795,7 @@ func (ic *ContainerEngine) ContainerStats(ctx context.Context, namesOrIds []stri
 	return containers.Stats(ic.ClientCxt, namesOrIds, &options.Stream)
 }
 
-// ShouldRestart reports back whether the containre will restart
+// ShouldRestart reports back whether the container will restart
 func (ic *ContainerEngine) ShouldRestart(_ context.Context, id string) (bool, error) {
 	return containers.ShouldRestart(ic.ClientCxt, id)
 }

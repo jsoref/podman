@@ -4427,7 +4427,7 @@
   * Makefile tweaks to fix make shell
   * failed containers with --rm should remove themselves
   * Fix documentation links and flow
-  * Set Socket label for contianer
+  * Set Socket label for container
   * Containers sharing a netns should share resolv/hosts
   * Prevent a second lookup of user for image volumes
   * fix typo in kubernetes
