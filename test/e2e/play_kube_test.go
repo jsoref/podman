@@ -16,7 +16,7 @@ import (
 )
 
 var unknownKindYaml = `
-apiVerson: v1
+apiVersion: v1
 kind: UnknownKind
 metadata:
   labels:
