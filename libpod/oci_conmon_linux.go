@@ -47,7 +47,7 @@ import (
 
 const (
 	// This is Conmon's STDIO_BUF_SIZE. I don't believe we have access to it
-	// directly from the Go cose, so const it here
+	// directly from the Go code, so const it here
 	bufferSize = conmonConfig.BufSize
 )
 
