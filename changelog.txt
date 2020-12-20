@@ -4149,7 +4149,7 @@
   * Add --latest and --all to podman mount/umount
   * Cleanup coverity scan issues
   * Embed runtime struct in super localRuntime
-  * Collaberative podman-remote container exists
+  * Collaborative podman-remote container exists
   * Fix up `image sign` in PR 2108
   * add support for podman-remote history
   * Rename localRuntime to runtime in cmd/podman
