@@ -1133,7 +1133,7 @@
 - Changelog for v2.0.0-rc2 (2020-05-22)
   * Attempt to turn on integration tests
   * Removes remote system reset functionality. skip e2e test for remote.
-  * Attempt to turn on special_testing_endpoing tests
+  * Attempt to turn on special_testing_endpoint tests
   * Attempt to turn on varlink tests
   * Attempt to turn on rpmbuild tests
   * Bump github.com/containers/common from 0.11.2 to 0.11.4
