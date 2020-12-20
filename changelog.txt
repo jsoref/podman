@@ -4286,7 +4286,7 @@
   * Allow alias for list, ls, ps to work
   * Refactor: use idtools.ParseIDMap instead of bundling own version
   * cirrus: Use updated images including new crui
-  * Switch all referencs to image.ContainerConfig to image.Config
+  * Switch all references to image.ContainerConfig to image.Config
   * Allow users to specify a directory for additional devices
   * Change all 'can not' to 'cannot' for proper usage
   * Invalid index for array
@@ -4385,7 +4385,7 @@
   * Allow alias for list, ls, ps to work
   * Refactor: use idtools.ParseIDMap instead of bundling own version
   * cirrus: Use updated images including new crui
-  * Switch all referencs to image.ContainerConfig to image.Config
+  * Switch all references to image.ContainerConfig to image.Config
   * Allow users to specify a directory for additional devices
   * Change all 'can not' to 'cannot' for proper usage
   * Invalid index for array
@@ -4943,7 +4943,7 @@
   * Fix naming of Namespaces to be more consistent
   * Start pod infra container when pod is created
   * vendor containerd/cgroups
-  * Fix up libpod.conf man pages and referencese to it.
+  * Fix up libpod.conf man pages and references to it.
   * Print errors from individual pull attempts
   * Added GOPATH/bin to PATH install.md
   * We should fail Podman with ExitCode 125 by default
