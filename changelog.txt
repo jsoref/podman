@@ -1705,7 +1705,7 @@
   * Add APIv2 service files
   * Attempt manual removal of CNI IP allocations on refresh
   * Implemented --iidfile for podman commit
-  * Add guildline for writing podman V2 CLI commands
+  * Add guideline for writing podman V2 CLI commands
   * Use creds form PullImage remote
   * Fix docker man page links
   * Bump to v1.8.3-dev
