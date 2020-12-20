@@ -441,7 +441,7 @@ compose_test_task:
         - validate
     gce_instance: *standardvm
     env:
-        <<: *stdenvars
+        <<: *stdenvvars
         TEST_FLAVOR: compose
     clone_script: *noop  # Comes from cache
     gopath_cache: *ro_gopath_cache
