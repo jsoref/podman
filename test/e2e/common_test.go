@@ -121,7 +121,7 @@ var _ = SynchronizedBeforeSuite(func() []byte {
 		}
 	}
 
-	// Pull cirros but dont put it into the cache
+	// Pull cirros but don't put it into the cache
 	pullImages := []string{cirros, fedoraToolbox}
 	pullImages = append(pullImages, CACHE_IMAGES...)
 	for _, image := range pullImages {

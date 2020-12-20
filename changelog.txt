@@ -2329,7 +2329,7 @@
   * filter added to container prune command
   * Disable checkpointing of containers started with --rm
   * Make doc building in spec optional
-  * Donot install btrfs in RHEL/CentOS-8
+  * Don't install btrfs in RHEL/CentOS-8
   * oci: print only matching part for the errors
   * command output fixed as per docker equivalent
   * Detect Python executable in Makefile
@@ -2743,7 +2743,7 @@
   * Fix links to manpages
   * Makefile: use go proxy
   * man: events-logger → events-backend
-  * dont panic when using varlink commit and uppercase image names
+  * don't panic when using varlink commit and uppercase image names
   * Add a test for the new suid/exec/dev options
   * Fix addition of mount options when using RO tmpfs
   * Allow :z and :Z with ProcessOptions
@@ -3053,7 +3053,7 @@
   * Cirrus: Fix #3543: Failure in 'release' task
   * fix bug convert volume host path to absolute
   * Cirrus: Fix 473d06045 / enable build_without_cgo
-  * account for varlink calls that dont use more
+  * account for varlink calls that don't use more
   * runtime: drop spurious message log
   * Ensure we have a valid store when we refresh
   * cgroups: skip not existing cpuacct files
@@ -4914,7 +4914,7 @@
   * Vendor in latest containers/storage to eliminage deadlock
   * do not build with devicemapper
   * run different cgroup tests depending on conditions
-  * dont make python when running make
+  * don't make python when running make
   * Explicitly set default CNI network name in libpod.conf
   * Pass on securityOpts from podInfraContainer to container added to pod.
   * Bump gitvalidation epoch
@@ -5709,7 +5709,7 @@
   * varlink info
   * vendor.conf: Bump containerd/cgroups to 77e62851
   * vendor.conf: Bump CNI to v0.6.0
-  * Dont eat the pull error message for varlink
+  * Don't eat the pull error message for varlink
   * podman push should honor registries.conf
   * alphabetize the varlink methods, types, and errors in the docs
   * Add missing newline to podman port

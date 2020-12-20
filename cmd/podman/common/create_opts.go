@@ -310,7 +310,7 @@ func ContainerCreateToContainerCLIOpts(cc handlers.CreateContainerConfig, cgroup
 	// on speculation by Matt and I. We think that these come into play later
 	// like with start. We believe this is just a difference in podman/compat
 	cliOpts := ContainerCLIOpts{
-		// Attach:            nil, // dont need?
+		// Attach:            nil, // don't need?
 		Authfile:     "",
 		CapAdd:       append(capAdd, cc.HostConfig.CapAdd...),
 		CapDrop:      append(cappDrop, cc.HostConfig.CapDrop...),
@@ -321,11 +321,11 @@ func ContainerCreateToContainerCLIOpts(cc handlers.CreateContainerConfig, cgroup
 		CPURTPeriod:  uint64(cc.HostConfig.CPURealtimePeriod),
 		CPURTRuntime: cc.HostConfig.CPURealtimeRuntime,
 		CPUShares:    uint64(cc.HostConfig.CPUShares),
-		// CPUS:              0, // dont need?
+		// CPUS:              0, // don't need?
 		CPUSetCPUs: cc.HostConfig.CpusetCpus,
 		CPUSetMems: cc.HostConfig.CpusetMems,
-		// Detach:            false, // dont need
-		// DetachKeys:        "",    // dont need
+		// Detach:            false, // don't need
+		// DetachKeys:        "",    // don't need
 		Devices:          devices,
 		DeviceCGroupRule: nil,
 		DeviceReadBPs:    readBps,
