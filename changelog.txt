@@ -4083,7 +4083,7 @@
   * install.md: add section about vendoring
   * Add varlink generate to the make documentation
   * Mention OSes that pass the build
-  * Generate make helping message dynamicaly.
+  * Generate make helping message dynamically.
   * Makefile: minor fix to reenable system tests
   * Add StartPeriod to cmd/podman/docker.HealthConfig
   * Unconditionally refresh storage options from config
