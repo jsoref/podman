@@ -5803,7 +5803,7 @@
   * Fix tests for podman run --attach
   * Print ctr ID if neither STDOUT and STDERR are attached
   * Add one test case for check diff in container and committed image
-  * Vendor in latest containers/image and contaners/storage
+  * Vendor in latest containers/image and containers/storage
   * Fix a typo
   * It is OK to start an already running container (with no attach)
   * Refactor logic for forceSecure in pull for readability
