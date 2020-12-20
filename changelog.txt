@@ -1286,7 +1286,7 @@
   * podman: split env variables in env and overrides
   * v2trust set and show
   * container runlabel
-  * enable login/logut unspecified args
+  * enable login/logout unspecified args
   * [CI:DOCS] Add link to Tutorials to docs homepage
   * Enables port test
   * CI:DOCS: Document API docs + CORS maintenance
