@@ -2774,7 +2774,7 @@
   * Fix link format in rootless_tutorial.md.
   * Need to include command name in error message
   * podman-remote: cp crashes
-  * generate systemd: support pods and geneartig files
+  * generate systemd: support pods and generating files
   * Dockerfile.fedora: install cni plugins package
   * Add --digestfile option to push
   * generate systemd: drop support for remote clients
