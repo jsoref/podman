@@ -4940,7 +4940,7 @@
   * Change shm test to be less flaky.
   * Update WaitForTimeOut to output OutputString to help with debugging.
   * Fixups for baseline test script
-  * Fix nameing of Namespaces to be more consistent
+  * Fix naming of Namespaces to be more consistent
   * Start pod infra container when pod is created
   * vendor containerd/cgroups
   * Fix up libpod.conf man pages and referencese to it.
