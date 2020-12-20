@@ -4749,7 +4749,7 @@
   * Update release notes for 0.10.1.1
   * Mount proper cgroup for systemd to manage inside of the container.
   * Cirrus: Enable debugging delay on non-zero exit
-  * Touchup fileo typo
+  * Touchup file typo
   * volume: resolve symlinks in paths
   * volume: write the correct ID of the container in error messages
   * vendor: update containers/buildah
