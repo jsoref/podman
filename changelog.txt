@@ -796,7 +796,7 @@
   * Remove outdated seccomp policy
   * Correctly print STDOUT on non-terminal remote exec
   * Pids-limit should only be set if the user set it
-  * Don't setup AppArmor provile for privileged pods
+  * Don't setup AppArmor profile for privileged pods
   * Ensure sig-proxy default is propagated in start
   * Fix container and pod create commands for remote create
   * version/info: format: allow more json variants
