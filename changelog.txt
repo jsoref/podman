@@ -1009,7 +1009,7 @@
   * Fix play kube report printing when no containers are created
   * Fix missing doc for field in PlayKubePod
   * Update comment related to seccomp profiles in play kube
-  * Consistent Yaml convention througout play kube tests
+  * Consistent Yaml convention throughout play kube tests
   * Fix podman generate tests that relied on play kube
   * Add tests for Deployment Kind and minor fix for play kube output
   * Fix existing tests
