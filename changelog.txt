@@ -2039,7 +2039,7 @@
   * Fix wrong Containerfile location on build
   * Wrap error for failing ImageSize calls
   * swagger: v2: libpod/images/{import,load,pull}
-  * seperate container create network options
+  * separate container create network options
   * Cirrus: Fix gate task + make lint|validate
   * Add a binding test to check image tag and list commands.
   * Update /_ping support
