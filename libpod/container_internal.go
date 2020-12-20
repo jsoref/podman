@@ -1120,7 +1120,7 @@ func (c *Container) cleanupRuntime(ctx context.Context) error {
 		return err
 	}
 
-	// If we were Stopped, we are now Exited, as we've removed ourself
+	// If we were Stopped, we are now Exited, as we've removed ourselves
 	// from the runtime.
 	// If we were Created, we are now Configured.
 	if c.state.State == define.ContainerStateStopped {
