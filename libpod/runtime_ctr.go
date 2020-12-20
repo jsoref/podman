@@ -343,7 +343,7 @@ func (r *Runtime) setupContainer(ctx context.Context, ctr *Container) (_ *Contai
 		ctr.config.Mounts = append(ctr.config.Mounts, ctr.config.ShmDir)
 	}
 
-	// Lock all named volumes we are adding ourself to, to ensure we can't
+	// Lock all named volumes we are adding ourselves to, to ensure we can't
 	// use a volume being removed.
 	volsLocked := make(map[string]bool)
 	for _, namedVol := range ctrNamedVolumes {
