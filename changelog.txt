@@ -2055,7 +2055,7 @@
   * Fix a syntax error in hack/release.sh
   * Minor update to release notes
   * sigproxy: return after closing the channel
-  * fix longname handling for bindings
+  * fix long name handling for bindings
   * Update release notes for v1.8.0
   * compat container names begin with /
   * Assure validate includes lint
