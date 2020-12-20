@@ -302,7 +302,7 @@ type ContainerSecurityConfig struct {
 	IDMappings *storage.IDMappingOptions `json:"idmappings,omitempty"`
 	// ReadOnlyFilesystem indicates that everything will be mounted
 	// as read-only
-	ReadOnlyFilesystem bool `json:"read_only_filesystem,omittempty"`
+	ReadOnlyFilesystem bool `json:"read_only_filesystem,omitempty"`
 	// Umask is the umask the init process of the container will be run with.
 	Umask string `json:"umask,omitempty"`
 	// ProcOpts are the options used for the proc mount.

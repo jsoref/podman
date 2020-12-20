@@ -157,7 +157,7 @@ type InspectMount struct {
 	// "volume" and "bind".
 	Type string `json:"Type"`
 	// The name of the volume. Empty for bind mounts.
-	Name string `json:"Name,omptempty"`
+	Name string `json:"Name,omitempty"`
 	// The source directory for the volume.
 	Source string `json:"Source"`
 	// The destination directory for the volume. Specified as a path within
