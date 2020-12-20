@@ -243,7 +243,7 @@ func (r *Runtime) setupRootlessNetNS(ctr *Container) error {
 	return nil
 }
 
-// setupSlirp4netns can be called in rootful as well as in rootless
+// setupSlirp4netns can be called in rootfull as well as in rootless
 func (r *Runtime) setupSlirp4netns(ctr *Container) error {
 	path := r.config.Engine.NetworkCmdPath
 	slirpOptions := r.config.Engine.NetworkCmdOptions

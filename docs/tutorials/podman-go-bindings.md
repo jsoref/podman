@@ -122,7 +122,7 @@ podman.sock
 First, you need to create a connection that connects to the system service.
 The critical piece of information for setting up a new connection is the endpoint.
 The endpoint comes in the form of an URI (method:/path/to/socket). For example,
-to connect to the local rootful socket the URI would be `unix:/run/podman/podman.sock`
+to connect to the local rootfull socket the URI would be `unix:/run/podman/podman.sock`
 and for a rootless user it would be `unix:$(XDG_RUNTIME_DIR)/podman/podman.sock`,
 typically: `unix:/run/user/${UID}/podman/podman.sock`.
 

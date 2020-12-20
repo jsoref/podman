@@ -1328,7 +1328,7 @@
   * fix commands without input
   * System tests: help messages: check required-arg
   * v2networking enable commands
-  * V2 Commands that require ParentNS (rootful) are report error
+  * V2 Commands that require ParentNS (rootfull) are report error
   * Cirrus: Utilize new cache images
   * Cirrus: Utilize new base images
   * cirrus: Update to Fedora 32 proper
