@@ -307,7 +307,7 @@
   * compat: images/create: fix tag parsing
   * Fix Podman logs reading journald
   * Restore "table" --format from V1
-  * --rm option shold conflicts with --restart
+  * --rm option should conflicts with --restart
   * Bump github.com/containers/common from 0.23.0 to 0.24.0
   * libpod: check the gid is present before adding it
   * podman-remote does not support most of the global flags

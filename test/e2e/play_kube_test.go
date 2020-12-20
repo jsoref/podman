@@ -1240,7 +1240,7 @@ spec:
 		inspect := podmanTest.Podman([]string{"inspect", getCtrNameInPod(&podNames[0]), "--format", "'{{ .Config.Cmd }}'"})
 		inspect.WaitWithDefaultTimeout()
 		Expect(inspect.ExitCode()).To(Equal(0))
-		// yaml's command shuold override the image's Entrypoint
+		// yaml's command should override the image's Entrypoint
 		correctCmd := "[" + strings.Join(defaultCtrCmd, " ") + " " + strings.Join(defaultCtrArg, " ")
 		Expect(inspect.OutputToString()).To(ContainSubstring(correctCmd))
 	})
