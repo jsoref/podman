@@ -2662,7 +2662,7 @@
 - Changelog for v1.6.0-rc1 (2019-09-16)
   * Fix default to pause in podman cp
   * Update release notes for v1.6.0
-  * Vendor Bulidah 1.11.2
+  * Vendor Buildah 1.11.2
   * get runtime for podman-remote push earlier
   * rootless: report the correct error
   * Report errors when trying to pause rootless containers
