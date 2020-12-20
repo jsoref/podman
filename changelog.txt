@@ -4132,7 +4132,7 @@
   * enable podman-remote version
   * Update transfer.md and commands.md to add missing commands.
   * rootless: support port redirection from the host
-  * Mask unimplemeted commands for remote client
+  * Mask unimplemented commands for remote client
   * Vendor in latest opencontainers/selinux
   * podman-remote inspect
   * Vendor in latest containers/storage
