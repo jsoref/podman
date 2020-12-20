@@ -62,7 +62,7 @@ type PodmanTestIntegration struct {
 
 var LockTmpDir string
 
-// PodmanSessionIntegration sturct for command line session
+// PodmanSessionIntegration struct for command line session
 type PodmanSessionIntegration struct {
 	*PodmanSession
 }
