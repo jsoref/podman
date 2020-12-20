@@ -158,7 +158,7 @@ function check_shell_completion() {
                     ;;&
 
                 *PATH* | *CONTEXT* | *KUBEFILE* | *COMMAND* | *ARG...* | *URI*)
-                    # default shell completion should be done for everthing which accepts a path
+                    # default shell completion should be done for everything which accepts a path
                     run_completion "$@" $cmd "${extra_args[@]}" ""
 
                     # cp is a special case it returns ShellCompDirectiveNoSpace
