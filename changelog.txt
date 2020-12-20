@@ -2568,7 +2568,7 @@
   * networking: fix segfault when slirp4netns is missing
   * Bump gitvalidation epoch
   * Bump to v1.6.1-dev
-  * Move derivitive doc so it won't be treated as a manpage
+  * Move derivative doc so it won't be treated as a manpage
   * catatonit: clone and build
   * bump catatonit to v0.1.4
 
