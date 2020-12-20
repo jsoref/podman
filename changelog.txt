@@ -1490,7 +1490,7 @@
   * Fix podman inspect to accept -l and -s fields
   * Handle Linux Capabilities correctly
   * Add functions to return image informations
-  * V2 Rmove existing unix domain socket on startup
+  * V2 Remove existing unix domain socket on startup
   * Cirrus: Add support for Fedora 32
   * Cirrus: More Ubuntu 19 + Fedora 31
   * V2 podman image tree
