@@ -3378,7 +3378,7 @@
   * Fix a 'generate kube' bug on ctrs with named volumes
   * Add test for image volume conflict with user volume
   * Cirrus: Fix missing CRIO_COMMIT -> CONMON_COMMIT
-  * When superceding mounts, check for opposite types
+  * When superseding mounts, check for opposite types
   * make remote resize channel buffered
   * Cirrus: workaround root expand failure
   * Cirrus: Stub in F30 support
