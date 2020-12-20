@@ -3396,7 +3396,7 @@
   * util: fix race condition in WaitForFile
   * Update vendor of buildah and containers/images
   * Add Jhon Honce (@jwhonce on github) to OWNERS
-  * Don't set apparmor if --priviliged
+  * Don't set apparmor if --privileged
   * docs/libpod.conf.5: Add "have" to "higher precedence" typo
   * Output name of process on runlabel command
   * Minor fix splitting env vars in podman-commit
