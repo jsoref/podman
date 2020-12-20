@@ -5346,7 +5346,7 @@
   * Add missing podman commands
   * Update gitvalidation epoch
   * Fix ps filter with key=value labels
-  * rootless: require subids to be present
+  * rootless: require sub*ids to be present
   * Downgrade setup.py
   * Bump gitvalidation epoch
   * Bump to v0.7.3-dev
