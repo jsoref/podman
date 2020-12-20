@@ -912,7 +912,7 @@
   * Account for non-default port number in image name
   * correct the absolute path of `rm` executable
   * Poll on events for file reading
-  * Add --preservefds to podman run
+  * Add --preserve-fds to podman run
   * podman images --format json: pretty print
   * Fix podman build handling of --http-proxy flag
   * search: allow wildcards
