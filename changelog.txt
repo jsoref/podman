@@ -1500,7 +1500,7 @@
   * common: setting cgroup resources correctly
   * Update pod inspect report to hold current pod status.
   * Pull images when doing podman create
-  * Return labes in API (fixes #5882)
+  * Return labels in API (fixes #5882)
   * Make `find` ignore dot files
   * Cleanup network option parsing
   * enable integration testing
