@@ -946,7 +946,7 @@ For the IPC namespace, the following sysctls are allowed:
 
 Note: if you use the **--ipc=host** option, the above sysctls will not be allowed.
 
-For the network namespace, the following ysctls are:
+For the network namespace, the following sysctls are:
 
 - Sysctls beginning with net.\*
 
