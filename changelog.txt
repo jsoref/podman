@@ -5592,7 +5592,7 @@
   * Log podman build failures in papr
   * Use Version from spec file in setup.py
   * Attempt to use fedora 28 atomic host
-  * Fix lable handling
+  * Fix label handling
   * runtime: add /usr/libexec/podman/conmon to the conmon paths
   * varlink build
   * Add OnBuild support for podman build
