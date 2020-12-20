@@ -3187,7 +3187,7 @@
   * add windows bridge format
   * Make configuration validation not require a DB commit
   * Avoid a read-write transaction on DB init
-  * Fix execvp uage in rootless_linux.c
+  * Fix execvp usage in rootless_linux.c
   * Handle possible asprintf failure in rootless_linux.c
   * Fix format specifiers in rootless_linux.c
   * Print container's OCI runtime in `inspect`
