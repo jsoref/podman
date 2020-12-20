@@ -690,7 +690,7 @@
   * Don't crash when giving bogus format commands
   * bindings: skip flaky pause/unpause test
   * logformatter: more libpod-podman fallout
-  * [CI:DOCS] apiv2 fix volumes not inculded field
+  * [CI:DOCS] apiv2 fix volumes not included field
   * Fix `podman image search` missing description
   * Specifying --ipc=host --pid=host is broken
   * Fix building from http or '-' options
