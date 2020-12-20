@@ -4266,7 +4266,7 @@
   * Add an SHM-backed Lock Manager implementation
   * Add interface for libpod multiprocess locks
   * Improve documentation and unit tests for SHM locks
-  * Propogate error codes from SHM lock creation and open
+  * Propagate error codes from SHM lock creation and open
   * Add mutex invariant to SHM semaphores.
   * Initial skeleton of in-memory locks
   * add container-init support
@@ -5549,7 +5549,7 @@
 
 - Changelog for v0.6.2 (2018-06-08)
   * Test to make sure we are getting proper exit codes on podman run
-  * Propegate exit code on Exec calls and integrated test
+  * Propagate exit code on Exec calls and integrated test
   * Vendor in latest buildah code
   * Update epoch to fix validation problems
   * Touch up whitespace issue in build man
