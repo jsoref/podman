@@ -40,7 +40,7 @@ func (ic *ContainerEngine) containerStat(container *libpod.Container, containerP
 		// Not all errors from secureStat map to ErrNotExist, so we
 		// have to look into the error string.  Turning it into an
 		// ENOENT let's the API handlers return the correct status code
-		// which is crucuial for the remote client.
+		// which is crucial for the remote client.
 		if os.IsNotExist(err) || strings.Contains(statInfoErr.Error(), "o such file or directory") {
 			statInfoErr = copy.ENOENT
 		}
