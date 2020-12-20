@@ -1788,7 +1788,7 @@
   * podman --help: mention defaults of bools
   * docs: clarify that --syslog expects an argument
   * Bump to v1.8.1-dev
-  * commands: rename file and add likns to readthedocs
+  * commands: rename file and add lines to readthedocs
 
 - Changelog for v1.8.1-rc4 (2020-03-09)
   * Revert "exec: get the exit code from sync pipe instead of file"
