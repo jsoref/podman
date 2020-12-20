@@ -2383,7 +2383,7 @@
   * rootless: use SYS_renameat2 instead of __NR_renameat2
   * Add Kata Containers runtimes to libpod.conf
   * help message: don't parse the config for cgroup-manager default
-  * fix bug check nonexist authfile
+  * fix bug check nonexistent authfile
   * Allow users to disable detach keys
   * namespaces: by default create cgroupns on cgroups v2
   * Update installation - Ubuntu. [skip ci]
@@ -2449,7 +2449,7 @@
   * enable dnsplugin for network create
   * Add ensureState helper for checking container state
   * Cleanup man pages
-  * Log warn instead of error for removing nonexistant container
+  * Log warn instead of error for removing nonexistent container
   * systemd: mask /sys/fs/cgroup/systemd/release_agent
   * Add multiple networks explanation to docs
   * rootless: raise an error with --network=

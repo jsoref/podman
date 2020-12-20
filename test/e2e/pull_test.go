@@ -393,8 +393,8 @@ var _ = Describe("Podman pull", func() {
 		Expect(len(session.OutputToStringArray())).To(BeNumerically(">", 4))
 	})
 
-	It("podman pull from docker with nonexist --authfile", func() {
-		session := podmanTest.Podman([]string{"pull", "--authfile", "/tmp/nonexist", ALPINE})
+	It("podman pull from docker with nonexistent --authfile", func() {
+		session := podmanTest.Podman([]string{"pull", "--authfile", "/tmp/nonexistent", ALPINE})
 		session.WaitWithDefaultTimeout()
 		Expect(session.ExitCode()).To(Not(Equal(0)))
 	})

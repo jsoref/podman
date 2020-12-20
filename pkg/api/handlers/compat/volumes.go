@@ -231,7 +231,7 @@ func RemoveVolume(w http.ResponseWriter, r *http.Request) {
 			utils.VolumeNotFound(w, name, err)
 		} else {
 			// Volume does not exist and `force` is truthy - this emulates what
-			// Docker would do when told to `force` removal of a nonextant
+			// Docker would do when told to `force` removal of a nonexistent
 			// volume
 			utils.WriteResponse(w, http.StatusNoContent, nil)
 		}

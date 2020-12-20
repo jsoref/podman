@@ -1413,7 +1413,7 @@ func startCommandGivenSelinux(cmd *exec.Cmd) error {
 }
 
 // moveConmonToCgroupAndSignal gets a container's cgroupParent and moves the conmon process to that cgroup
-// it then signals for conmon to start by sending nonse data down the start fd
+// it then signals for conmon to start by sending nonce data down the start fd
 func (r *ConmonOCIRuntime) moveConmonToCgroupAndSignal(ctr *Container, cmd *exec.Cmd, startFd *os.File) error {
 	mustCreateCgroup := true
 
@@ -1572,7 +1572,7 @@ func readConmonPipeData(pipe *os.File, ociLog string) (int, error) {
 	return data, nil
 }
 
-// writeConmonPipeData writes nonse data to a pipe
+// writeConmonPipeData writes nonce data to a pipe
 func writeConmonPipeData(pipe *os.File) error {
 	someData := []byte{0}
 	_, err := pipe.Write(someData)

@@ -337,8 +337,8 @@ var _ = Describe("Podman create", func() {
 		Expect(string(session.Out.Contents())).To(ContainSubstring(ALPINEARM64DIGEST))
 	})
 
-	It("podman create --authfile with nonexist authfile", func() {
-		session := podmanTest.Podman([]string{"create", "--authfile", "/tmp/nonexist", "--name=foo", ALPINE})
+	It("podman create --authfile with nonexistent authfile", func() {
+		session := podmanTest.Podman([]string{"create", "--authfile", "/tmp/nonexistent", "--name=foo", ALPINE})
 		session.WaitWithDefaultTimeout()
 		Expect(session).To(Not(Equal(0)))
 	})

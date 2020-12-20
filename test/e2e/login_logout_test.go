@@ -155,8 +155,8 @@ var _ = Describe("Podman login and logout", func() {
 		json.Unmarshal(authInfo, &info)
 		fmt.Println(info)
 
-		// push should fail with nonexist authfile
-		session = podmanTest.Podman([]string{"push", "--authfile", "/tmp/nonexist", ALPINE, testImg})
+		// push should fail with nonexistent authfile
+		session = podmanTest.Podman([]string{"push", "--authfile", "/tmp/nonexistent", ALPINE, testImg})
 		session.WaitWithDefaultTimeout()
 		Expect(session.ExitCode()).To(Not(Equal(0)))
 
@@ -168,8 +168,8 @@ var _ = Describe("Podman login and logout", func() {
 		session.WaitWithDefaultTimeout()
 		Expect(session.ExitCode()).To(Equal(0))
 
-		// logout should fail with nonexist authfile
-		session = podmanTest.Podman([]string{"logout", "--authfile", "/tmp/nonexist", server})
+		// logout should fail with nonexistent authfile
+		session = podmanTest.Podman([]string{"logout", "--authfile", "/tmp/nonexistent", server})
 		session.WaitWithDefaultTimeout()
 		Expect(session.ExitCode()).To(Not(Equal(0)))
 
